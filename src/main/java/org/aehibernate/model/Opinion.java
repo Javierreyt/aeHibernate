@@ -1,30 +1,57 @@
 package org.aehibernate.model;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
-@Getter
-@Setter
+/**
+ * Clase que representa una opinión sobre una película.
+ */
+@Data
+@NoArgsConstructor
 @Entity
 @Table(name = "opinion", schema = "aeHibernate")
 public class Opinion {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
-    private Integer id;
+    private Long id;
 
     @Lob
     @Column(name = "descripcion")
     private String descripcion;
 
-    @Column(name = "usuario", nullable = false, length = 64)
+    @Column(name = "usuario", nullable = false)
     private String usuario;
 
     @Column(name = "puntuacion")
     private Integer puntuacion;
 
-    @Column(name = "pelicula_id")
-    private Integer peliculaId;
+    @ManyToOne
+    @JoinColumn(name = "pelicula_id")
+    private Pelicula pelicula;
 
+    /**
+     * Constructor de la clase Opinion.
+     *
+     * @param opinion la descripción de la opinión
+     * @param user el usuario que hizo la opinión
+     * @param puntuacion la puntuación dada a la película
+     */
+    public Opinion(String opinion, String user, Integer puntuacion) {
+        this.descripcion = opinion;
+        this.usuario = user;
+        this.puntuacion = puntuacion;
+    }
+
+    @Override
+    public String toString() {
+        return "Opinion{" +
+                "id=" + id +
+                ", descripcion='" + descripcion + '\'' +
+                ", usuario='" + usuario + '\'' +
+                ", puntuacion=" + puntuacion +
+                ", pelicula=" + (pelicula != null ? pelicula.getId() : null) +
+                '}';
+    }
 }

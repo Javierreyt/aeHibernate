@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df400ae2-ebb1-4b01-908f-1ca112efaaee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aehibernate/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aehibernate/dao/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aehibernate/model/Opinion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aehibernate/model/Pelicula.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+    <list default="true" id="df400ae2-ebb1-4b01-908f-1ca112efaaee" name="Changes" comment="Primer Push con los archivos de inicio">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aehibernate/dao/Servicios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aehibernate/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aehibernate/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aehibernate/dao/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aehibernate/dao/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aehibernate/model/Opinion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aehibernate/model/Opinion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/aehibernate/model/Pelicula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/aehibernate/model/Pelicula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +28,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Javierreyt"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Javierreyt/aeHibernate.git",
+    "accountId": "08a195ae-d359-4aab-bb9c-6c9e5f4270c8"
+  }
+}]]></component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
   <component name="KubernetesApiProvider"><![CDATA[{
   "isMigrated": true
 }]]></component>
@@ -49,7 +58,7 @@
     "Application.Main.executor": "Run",
     "Application.Unnamed.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/javierreyt/Desktop/ActividadEvaluableHibernate/src/main/java/org/aehibernate",
@@ -71,6 +80,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/aehibernate" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.aehibernate.dao" />
     </key>
   </component>
   <component name="RunManager">
@@ -102,11 +114,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730970450208</updated>
-      <workItem from="1730970451055" duration="418000" />
+      <workItem from="1730970451055" duration="4307000" />
     </task>
+    <task id="LOCAL-00001" summary="Primer Push con los archivos de inicio">
+      <option name="closed" value="true" />
+      <created>1730970909003</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730970909003</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Primer Push con los archivos de inicio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primer Push con los archivos de inicio" />
   </component>
 </project>
